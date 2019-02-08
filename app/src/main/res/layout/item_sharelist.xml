@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/shareitem">
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sharecardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="50dp"
+    android:padding="10dp"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="8dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/shareItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:hint="Item"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentLeft="true" />
+
+
+        <TextView
+            android:id="@+id/shareDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shareItem"
+            android:layout_alignParentStart="true"
+            android:hint="Description"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/shareAvailability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shareDescription"
+            android:layout_alignParentStart="true"
+            android:hint="Availability"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/shareContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/shareAvailability"
+            android:hint="Item"
+            android:inputType="textPersonName"
+            android:text="Contact:"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+
+        <TextView
+            android:id="@+id/shareName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shareContact"
+            android:layout_alignParentStart="true"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:paddingBottom="1dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/sharePhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shareName"
+            android:layout_alignParentStart="true"
+            android:hint="Phone"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:paddingBottom="1dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/shareEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sharePhone"
+            android:layout_alignParentStart="true"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/shareMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shareEmail"
+            android:layout_alignParentStart="true"
+            android:hint="Map"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>

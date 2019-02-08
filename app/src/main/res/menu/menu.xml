@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sell"
+        android:title="Sell it" />
+    <item
+        android:id="@+id/share"
+        android:title="Share it" />
+    <item
+        android:id="@+id/donate"
+        android:title="Donate it" />
+
+
+    <item
+        android:id="@+id/menuLogout"
+        android:title="Logout" />
+
+
+
+</menu>

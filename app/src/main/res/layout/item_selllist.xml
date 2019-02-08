@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/sellitem">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/sellcardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:padding="10dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/cardview_light_background">
+
+        <TextView
+            android:id="@+id/sellItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:hint="Item"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp" />
+
+
+        <TextView
+            android:id="@+id/sellDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sellItem"
+            android:layout_alignParentStart="true"
+            android:hint="Description"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/sellPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sellDescription"
+            android:layout_alignParentStart="true"
+            android:hint="Price"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/sellContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/sellPrice"
+            android:hint="Item"
+            android:inputType="textPersonName"
+            android:text="Contact:"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+
+        <TextView
+            android:id="@+id/sellName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sellContact"
+            android:layout_alignParentStart="true"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:paddingBottom="1dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/sellPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sellName"
+            android:layout_alignParentStart="true"
+            android:hint="Phone"
+            android:inputType="textPersonName"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/sellEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sellPhone"
+            android:layout_alignParentStart="true"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/sellMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sellEmail"
+            android:layout_alignParentStart="true"
+            android:hint="Map"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
